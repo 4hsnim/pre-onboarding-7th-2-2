@@ -3,11 +3,11 @@ import reset from "styled-reset";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
   * {
     box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
   }
   a {
     text-decoration: none;

@@ -1,12 +1,12 @@
 import React from "react";
 import Container from "../atoms/Container";
-import LeftWrapper from "../atoms/LeftWrapper";
+import LeftSection from "../organisms/LeftSection";
 import RightWrapper from "../atoms/RightWrapper";
 
 const Template = () => {
   return (
     <Container>
-      <LeftWrapper />
+      <LeftSection />
       <RightWrapper />
     </Container>
   );
