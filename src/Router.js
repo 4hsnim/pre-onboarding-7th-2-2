@@ -1,6 +1,6 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import AdManagePage from "./pages/AdManagePage";
-import DashBoardPage from "./pages/DashBoardPage";
+import AdManagePage from "./components/pages/AdManagePage";
+import DashBoardPage from "./components/pages/DashBoardPage";
 
 const Router = () => {
   return (
