@@ -8,6 +8,9 @@ import RightWrapper from "./RightWrapper";
 import DropDown from "./DropDown";
 import Title1 from "./Title1";
 import Title2 from "./Title2";
+import ModeIcon from "./ModeIcon";
+import ModeWrapper from "./ModeWrapper";
+import LeverGuide from "./LeverGuide";
 
 const Atoms = {
   Container,
@@ -20,6 +23,9 @@ const Atoms = {
   DropDown,
   Title1,
   Title2,
+  ModeIcon,
+  ModeWrapper,
+  LeverGuide
 };
 
 export default Atoms;
